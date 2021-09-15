@@ -31,7 +31,7 @@ node {
 	
     stage('Deploy Node-app Container ') {
 	    
-        sh('docker run -d -p 8000:8000 audubilly/node-app1:2.0')
+        sh('docker run -d -p 8001:8000 audubilly/node-app1:2.0')
     }
 
 }
